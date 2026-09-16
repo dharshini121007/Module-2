@@ -9,8 +9,19 @@ To write a Python program that defines a **lambda function** which takes two arg
 3. Call the function with the user inputs and print the result.
 
 ## 🧾 Program
-Add code here
+```
+
+a = int(input())
+b = int(input())
+
+f = lambda a, b: a + b
+
+print(f(a, b))
+```
 
 ## Output
+<img width="1917" height="767" alt="image" src="https://github.com/user-attachments/assets/13375335-da92-42f3-a044-e9cb444df2f2" />
+
 
 ## Result
+The program reads two integers from the user, uses a lambda function to add them, and prints the sum.
