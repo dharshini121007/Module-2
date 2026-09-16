@@ -11,9 +11,19 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
+```
+def result(a, b):
+    print(a % b)
 
-Add code Here
+a = int(input())
+b = int(input())
+
+result(a, b)
+```
 
 ## Output
+<img width="1916" height="765" alt="image" src="https://github.com/user-attachments/assets/4031c04f-6e26-4289-a41c-8fc50bdbe607" />
+
 
 ## Result
+Thus, the program successfully calculates and displays the remainder of the division of the first integer by the second integer.
